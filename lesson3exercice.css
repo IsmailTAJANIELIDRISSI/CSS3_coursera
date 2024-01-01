@@ -1,0 +1,85 @@
+/* Style the body tag to modify the font family and font size properties */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Style the header tag to modify the background color property */
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Style the nav tag to modify the background color property */
+nav {
+  /* Updated: Change to inline-block and adjust width */
+  display: inline-block;
+  width: 80%;
+  background-color: #ccc;
+}
+
+/* Style the image in the nav */
+nav img {
+  /* Added: Set width for images in the nav */
+  width: 10%;
+}
+
+/* Style the main tag to modify the background color and font size property */
+main {
+  background-color: #fff;
+  font-size: 14px;
+  padding: 20px;
+}
+
+/* Add a working "Skip to Main Content" link to each page */
+#main-content {
+  /* Added: Define ID for main content */
+  position: absolute;
+  top: -40px;
+  left: 0;
+}
+
+/* Commented out the existing styling for the li element */
+/* li {
+  display: inline-block;
+  width: 100px;
+  margin-right: 10px;
+} */
+
+/* Style the grid class */
+.grid {
+  /* Updated: Set up a two-column grid */
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 20px;
+}
+
+/* Style the images within the grid class */
+.grid img {
+  /* Ensure images in the grid occupy full width */
+  width: 100%;
+}
+
+/* Adjust grid class properties to match the screenshots */
+.grid {
+  grid-template-columns: 40% 40%;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 20px;
+}
+
+/* Style the flex class */
+.flex {
+  /* Set up flex display */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Adjust flex class properties to match the screenshots */
+.flex {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
